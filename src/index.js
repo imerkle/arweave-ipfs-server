@@ -4,7 +4,6 @@ import express from 'express';
 import ArweaveIpfs from 'arweave-ipfs'
 
 var fs = require('fs');
-const fileType = require('file-type');
 
 const arw = new ArweaveIpfs();
 const jwk = JSON.parse(fs.readFileSync(process.env.JWK, 'utf8'));
