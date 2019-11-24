@@ -91,5 +91,5 @@ In case of an error it returns:
 
 If you want to use ipfs with arweave directly without a server take a look at [arweave-ipfs](https://github.com/imerkle/arweave-ipfs).
 
-Also take a look at [arweave-explorer](https://github.com/imerkle/arweave-explorer) for a live example of how to use the data.
+Also take a look at [arweave-explorer](https://github.com/imerkle/arweave-ipfs-explorer) for a live example of how to use the data.
 
