@@ -89,7 +89,12 @@ In case of an error it returns:
 }
 ```
 
+
+# arweave-ipfs library
+
 If you want to use ipfs with arweave directly without a server take a look at [arweave-ipfs](https://github.com/imerkle/arweave-ipfs).
 
-Also take a look at [arweave-ipfs-explorer](https://github.com/imerkle/arweave-ipfs-explorer) for a live example of how to use the data.
 
+# Arweave-IPFS Explorer
+
+[arweave-ipfs-explorer](https://github.com/imerkle/arweave-ipfs-explorer) is an easy to use permaweb dapp that uses [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) and[arweave-ipfs-server](https://github.com/imerkle/arweave-ipfs-server) to display and store ipfs hashes into blockchain.
