@@ -3,6 +3,15 @@
 
 This server uses [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) at its core.
 
+## Features 
+
+- Checks for duplicate hashes before pinning 
+- Supports multiple hashes in one request
+- Highly customizable options
+
+
+It's hosted at https://3b565264.ngrok.io as part of bounty challenge.
+
 ## Setup
 
 * `git clone https://github.com/imerkle/arweave-ipfs-server.git`
