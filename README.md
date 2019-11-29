@@ -37,6 +37,7 @@ It also displays/downloads the content you have uploaded , just add `#/your-ipfs
 - Highly customizable options
 - Zero Installation, works with a single HTTP Request (for users)
 - Doesn't requires a wallet to post ipfs hashes (for users)
+- Automatically pins IPFS Hashes not found in Arweave even while just fetching.
 
 ## Try 
 
