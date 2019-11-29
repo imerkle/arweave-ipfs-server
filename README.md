@@ -6,7 +6,7 @@ This server uses [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) at its 
 ## Features 
 
 - Checks for duplicate hashes before pinning 
-- Supports multiple hashes in one request
+- Supports multiple hashes permafying hundreds of ipfs data in one request
 - Highly customizable options
 - Zero Installation, works with a single HTTP Request (for users)
 - Doesn't requires a wallet to post ipfs hashes (for users)
