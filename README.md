@@ -43,7 +43,7 @@ It also displays/downloads the content you have uploaded , just add `#/your-ipfs
 ## Try 
 
 It's hosted at https://3b565264.ngrok.io as part of bounty challenge.
-Try a `curl -X GET 'https://3b565264.ngrok.io/get/Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9kZEP2a'` to see it working
+Try a `curl -X POST 'https://3b565264.ngrok.io/add/Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9kZEP2a'` to see it working
 
 
 ## Setup
