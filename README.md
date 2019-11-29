@@ -71,32 +71,6 @@ AR_PROTOCOL="https"
 
 ## API
 
-##### /get
-`/get` wraps the [get function](https://github.com/imerkle/arweave-ipfs#get) of [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) library.
-
-It fetches the raw file content from ipfs/arweave.
-
-You can `/get` two ways the recommended way is: 
-```
-curl -X GET 'http://localhost:3001/get?args=Qmx...,Qmy...,1U5...'
-```
-###### response
-```
-{
-    "Qmx...": [1,2,3,4,5,6],
-    "Qmy...": [1,2,3,4,5,6],
-    "1U5...": [1,2,3,4,5,6],
-}
-```
-Or
-```
-curl -X GET 'http://localhost:3001/get/Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9kZEP2a'
-```
-###### response
-```
-[72,101,108,108,111...107,101,114,10]
-```
-
 ##### /add
 `/add` wraps the [add function](https://github.com/imerkle/arweave-ipfs#add) of [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) library
 
@@ -127,6 +101,34 @@ curl -X POST http://localhost:3001/add/Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9k
 ```
 1U5kug5cr6j7vBt71FJYNLDFmqliUMm_1BCG6fjLSW8
 ```
+
+
+##### /get
+`/get` wraps the [get function](https://github.com/imerkle/arweave-ipfs#get) of [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) library.
+
+It fetches the raw file content from ipfs/arweave.
+
+You can `/get` two ways the recommended way is: 
+```
+curl -X GET 'http://localhost:3001/get?args=Qmx...,Qmy...,1U5...'
+```
+###### response
+```
+{
+    "Qmx...": [1,2,3,4,5,6],
+    "Qmy...": [1,2,3,4,5,6],
+    "1U5...": [1,2,3,4,5,6],
+}
+```
+Or
+```
+curl -X GET 'http://localhost:3001/get/Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9kZEP2a'
+```
+###### response
+```
+[72,101,108,108,111...107,101,114,10]
+```
+
 
 ##### error handling
 In case of an error it returns: 
