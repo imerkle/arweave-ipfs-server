@@ -71,7 +71,7 @@ AR_PROTOCOL="https"
 
 ## API
 
-##### /add
+#### /add
 `/add` wraps the [add function](https://github.com/imerkle/arweave-ipfs#add) of [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) library
 
 It submits ipfs hash to arweave and returns the txid. It can also be used to get arweave txid of a previously pinned ipfs hash.
@@ -103,7 +103,7 @@ curl -X POST http://localhost:3001/add/Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9k
 ```
 
 
-##### /get
+#### /get
 `/get` wraps the [get function](https://github.com/imerkle/arweave-ipfs#get) of [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) library.
 
 It fetches the raw file content from ipfs/arweave.
